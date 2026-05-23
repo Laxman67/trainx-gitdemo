@@ -153,13 +153,13 @@ rm -rf .git
 
 11. Tagging
 Tags in Git are used to mark specific points in a repository's history,
-often used for marking release points like v1.0, v2.0, etc
+often used for marking --release-- points like v1.0, v2.0, etc
 
 a. git tag tag_name (Eg. v1,v2)
 b. git tag tag_name commitHash
 c. git tag tag_name -a "message" commitHash
 d. git tag :  To lists down all Tags
-e. git push origin v1.0
+e. git push origin v1.0 : to push one tag
 f. git push origin --tags :  TO push all tags
 g. git tag -d v1 : To delete tag
 
